@@ -9,7 +9,7 @@ The final output from reducer2 is shown as below: \
  **(' Mercedes', ' 2016')	1** \
  **(' Toyota', ' 2017')	0** \
  **(' Nissan', ' 2003')	1** \
- **(' Mercedes', ' 2015')	2** \
+ **(' Mercedes', ' 2015')	2** 
 
 The execution log of the hadoop mapper and reducers is captured in the file mapreduce_output.txt
 
