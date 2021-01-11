@@ -6,10 +6,10 @@ This Hadoop Mini project is to count the number of accidents for each vehicle ma
 * Step 4: The reducer2 will combine the total accident count for the key vehicle model and year and total accident count.
 
 The final output from reducer2 is shown as below:
-(' Mercedes', ' 2016')	1
-(' Toyota', ' 2017')	0
-(' Nissan', ' 2003')	1
-(' Mercedes', ' 2015')	2
+ (' Mercedes', ' 2016')	1
+ (' Toyota', ' 2017')	0
+ (' Nissan', ' 2003')	1
+ (' Mercedes', ' 2015')	2
 
 The execution log of the hadoop mapper and reducers is captured in the file mapreduce_output.txt
 
