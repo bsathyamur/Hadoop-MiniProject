@@ -11,7 +11,7 @@ The final output from reducer2 is shown as below: \
  **(' Nissan', ' 2003')	1** \
  **(' Mercedes', ' 2015')	2** 
 
-The execution log of the hadoop mapper and reducers is captured in the file mapreduce_output.txt
+The execution log of the hadoop mapper and reducers is captured in the file **mapreduce_output.txt**
 
 To execute the Map Reduce in the oracle VM
 1. create two HDFS folders /input_files and /output_files
