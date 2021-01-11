@@ -1,4 +1,4 @@
-This ** Hadoop Mini project ** is to count the number of accidents for each vehicle make and year and uses two mapper and reducers.
+This **Hadoop Mini project** is to count the number of accidents for each vehicle make and year and uses two mapper and reducers.
 
 * Step 1: The mapper1 will generate the key value pairs for vehicle VIN# as key and vehicle model, year and incident type as a tuple
 * Step 2: The reducer1 will capture the vehicle model and year as key and accident count as value
@@ -6,10 +6,10 @@ This ** Hadoop Mini project ** is to count the number of accidents for each vehi
 * Step 4: The reducer2 will combine the total accident count for the key vehicle model and year and total accident count.
 
 The final output from reducer2 is shown as below: \
- ** (' Mercedes', ' 2016')	1 \
- ** (' Toyota', ' 2017')	0 \
- ** (' Nissan', ' 2003')	1 \
- ** (' Mercedes', ' 2015')	2 \
+ **(' Mercedes', ' 2016')	1 \
+ **(' Toyota', ' 2017')	0 \
+ **(' Nissan', ' 2003')	1 \
+ **(' Mercedes', ' 2015')	2 \
 
 The execution log of the hadoop mapper and reducers is captured in the file mapreduce_output.txt
 
